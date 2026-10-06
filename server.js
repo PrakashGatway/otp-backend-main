@@ -4,6 +4,9 @@ const cors = require('cors');
 const otpRoutes = require('./routes/otpRoutes');
 
 const app = express();
+
+
+
 const PORT = 4000;
 
 app.use(cors());
